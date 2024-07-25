@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Main Content -->
+  <main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpg" alt="Yashaswini H U" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Yashaswini H U">Yashaswini H U</h1>
+          <p class="title">Computer Science Student</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:yashaswinihu@gmail.com" class="contact-link">yashaswinihu@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2003-02-24">Feb 24, 2003</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hassan, Karnataka, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="#about">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#resume">Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- About Section -->
+      <article id="about" class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a highly motivated and detail-oriented computer science student with a robust foundation in programming languages, web development, and AI/ML technologies. My academic journey has equipped me with comprehensive skills in languages such as C, Java, Python, and C++, and I have gained hands-on experience in web development using HTML, CSS, JavaScript, and MySQL.
+          </p>
+          <p>
+            In addition to my technical expertise, I have a deep understanding of AI/ML algorithms and their practical applications, which has allowed me to develop innovative solutions and mini-projects in this field. My commitment to learning and adapting to new challenges drives me to continuously enhance my skills and stay updated with the latest technological advancements.
+          </p>
+        </section>
+
+        <!-- Services Section -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+                <p class="service-item-text">
+                  I develop robust and efficient software solutions using languages such as C, Java, Python, and C++. My focus is on creating applications that meet user needs and enhance functionality.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">
+                  I build responsive and user-friendly websites using HTML, CSS, JavaScript, and MySQL, ensuring a seamless experience across different devices and platforms.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Projects</h4>
+                <p class="service-item-text">
+                  I apply AI and machine learning techniques to solve complex problems and develop intelligent systems, using frameworks and algorithms to create innovative solutions.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Collaborative Projects</h4>
+                <p class="service-item-text">
+                  I excel in collaborative environments, contributing effectively to team projects with strong communication and leadership skills, ensuring project goals are met efficiently.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      
+      <!-- Resume Section -->
+       
+      <article id="resume" class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Science and Engineering</h4>
+              
+              <p class="timeline-text">
+                Malnad College of Engineering, Hassan, India. Pursuing with a current GPA of 9.32.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">12th / Pre-University</h4>
+              
+              <p class="timeline-text">
+                Masters Pre University College, Hassan, India. Graduated with 100% marks.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">10th Grade</h4>
+              
+              <p class="timeline-text">
+                United Academy, Hassan, India. Achieved 95.2% marks.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+      
+          <h3 class="h3 skills-title">My Skills</h3>
+      
+          <ul class="skills-list content-card">
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AI/ML</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Collaboration & Leadership</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+      
+          </ul>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intern at Technologics Global</h4>
+              <span>July 2023 — September 2023</span>
+              <p class="timeline-text">
+                Worked on developing various mini-projects involving AIML algorithms using Python.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intern at Inventeron</h4>
+              <span>February 2023 — May 2023</span>
+              <p class="timeline-text">
+                Engaged in multiple web development projects, enhancing user experiences and website functionalities.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intern at J V Global</h4>
+              <span>August 2022 — November 2022</span>
+              <p class="timeline-text">
+                Contributed to software development projects, focusing on improving code efficiency and performance.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Projects</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Student Record Management System</h4>
+              
+              <p class="timeline-text">
+                Implemented features for efficient data storage and retrieval using circular linked lists.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Blood Bank Management System</h4>
+             
+              <p class="timeline-text">
+                Implemented front-end (HTML, CSS, JavaScript) and back-end (PHP, XAMPP) functionalities for efficient blood inventory management.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">TeleVaidhya</h4>
+             
+              <p class="timeline-text">
+                Implemented front-end (HTML, CSS, JavaScript) and back-end (PHP, XAMPP) functionalities for efficient result display.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Image Recognition and Tracking</h4>
+             
+              <p class="timeline-text">
+                Implemented using AIML generating python.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Hobbies</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Listening to music</h4>
+              
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Playing badminton</h4>
+             
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Reading books</h4>
+            </li>
+            
+          </ol>
+        </section>
+       
+      
+
+      
+      
+      
+      </article>
+
+      <!-- Contact Section -->
+      <article id="contact" class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.1770184567156!2d76.05614167485624!3d12.993122115193728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba5e69a1b0d77bb%3A0x8d247f722c0b03de!2sHassan%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1690045431342!5m2!1sen!2sus"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full Name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            <button type="submit" class="form-btn">Send Message</button>
+          </form>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Custom Scripts -->
+ madkole
+<script src="./assets/js/script.js" defer></script>
+
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" nomodule></script>
+</body>
+
+</html>
